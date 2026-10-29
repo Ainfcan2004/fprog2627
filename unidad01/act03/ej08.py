@@ -14,7 +14,6 @@ aporta4= nota4 * peso4 / 100
 nota_final= aporta1 + aporta2 + aporta3 + aporta4
 nota_boletin= round(nota_final)
 
-print()
 print("==============================================")
 print("           NOTA FINAL DEL MÓDULO")
 print("==============================================")
