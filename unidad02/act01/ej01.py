@@ -5,7 +5,8 @@ parche = input("Parche: ")
 
 version = mayor + "." + menor + "." + parche
 etiqueta = "v" + version
-largo = "versión " + mayor + ", revisión " + menor + ", parche " + menor
+# Esperaba parche = "3" y el depurador mostraba parche = "15". porque se habai vuelto a poner la variable menor en parche en lugar de la variable parche
+largo = "versión " + mayor + ", revisión " + menor + ", parche " + parche
 
 print("Versión:", version)
 print("Etiqueta de Git:", etiqueta)
